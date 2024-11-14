@@ -1,0 +1,63 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    min-height: 100vh;
+    background: url(../IMAGE/college.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+
+}
+.logo{
+    height: 150px;
+    width: 50px;
+
+}
+.nav-link{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav-link a {
+    color:rgb(59, 20, 217)
+}
+
+.nav-link li:hover{
+    
+    
+}
+::selection{
+    color: blueviolet;
+}
+
